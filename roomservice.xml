@@ -1,0 +1,21 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="SscSPs/android_device_samsung_lt23g" path="device/samsung/lt023g" remote="github" revision="cm14.1" />
+  <project name="SscSPs/android_vendor_samsung_lt023g" path="vendor/samsung/lt023g" remote="github" revision="cm14.1" />
+  <project name="SscSPs/android_kernel_samsung_lt02" path="kernel/samsung/lt02" remote="github" revision="cm14.1" />
+
+<!--Marvell related repos-->
+  <project name="SscSPs/android_hardware_marvell" path="hardware/marvell" remote="github" revision="cm14.1" />
+  <project name="SscSPs/android_vendor_marvell_external" path="vendor/marvell/external" remote="github" revision="cm14.1" />
+  <project name="SscSPs/android_vendor_marvell_generic" path="vendor/marvell/generic" remote="github" revision="cm14.1" />
+  <!--project name="SscSPs/" path="" remote="github" revision="cm14.1" />
+  <project name="SscSPs/" path="" remote="github" revision="cm14.1" /-->
+
+<!-- TWRP>
+  <remove-project name="LineageOS/android_bootable_recovery" />
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1" groups="pdk-cw-fs"/>
+  <project path="external/busybox" name="LineageOS/android_external_busybox" remote="github" revision="cm-14.1" /-->
+
+</manifest>
