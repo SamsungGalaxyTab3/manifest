@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Device related Files -->
+	<project name="SamsungGalaxyTab3/android_device_samsung_lt023g" path="device/samsung/lt023g" remote="github" revision="cm-14.1" />
+	<project name="SamsungGalaxyTab3/android_vendor_samsung_lt023g" path="vendor/samsung/lt023g" remote="github" revision="cm-14.1" />
+	<project name="SamsungGalaxyTab3/android_kernel_samsung_lt02" path="kernel/samsung/lt02" remote="github" revision="master" />
+
+<!-- Marvell related repos -->
+	<project name="SamsungGalaxyTab3/android_hardware_marvell" path="hardware/marvell" remote="github" revision="cm-14.1" />
+	<project name="SamsungGalaxyTab3/android_vendor_marvell_external" path="vendor/marvell/external" remote="github" revision="cm-14.1" />
+	<project name="SamsungGalaxyTab3/android_vendor_marvell_generic" path="vendor/marvell/generic" remote="github" revision="cm-14.1" />
+
+<!-- Kernel Toolchain -->
+	<project name="SamsungGalaxyTab3/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="github" revision="kitkat-mr2.2-release" />
+
+<!-- TWRP -->
+	<!-- not working on this right now>
+	<remove-project name="LineageOS/android_bootable_recovery" />
+	<project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1" groups="pdk-cw-fs"/>
+	<project path="external/busybox" name="LineageOS/android_external_busybox" remote="github" revision="cm-14.1" />
+	< /will be working on it later, once the build is bootable -->
+
+</manifest>
