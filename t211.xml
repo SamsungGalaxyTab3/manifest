@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Device related Files -->
+<!-- Device related repos -->
 	<project name="SamsungGalaxyTab3/android_device_samsung_lt023g" path="device/samsung/lt023g" remote="github" revision="cm-14.1" />
 	<project name="SamsungGalaxyTab3/android_vendor_samsung_lt023g" path="vendor/samsung/lt023g" remote="github" revision="cm-14.1" />
 	<project name="SamsungGalaxyTab3/android_kernel_samsung_lt02" path="kernel/samsung/lt02" remote="github" revision="master" />
@@ -12,7 +12,7 @@
 	<project name="SamsungGalaxyTab3/android_vendor_marvell_generic" path="vendor/marvell/generic" remote="github" revision="cm-14.1" />
 
 <!-- Kernel Toolchain -->
-	<project name="SamsungGalaxyTab3/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="github" revision="kitkat-mr2.2-release" />
+	<project name="SamsungGalaxyTab3/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="github" revision="kitkat-mr2.2-release" />
 
 <!-- TWRP -->
 	<!-- not working on this right now>
